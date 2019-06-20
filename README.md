@@ -4,16 +4,16 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/alipay/sofa-mesh)](https://goreportcard.com/report/github.com/alipay/sofa-mesh)
 [![codecov.io](https://codecov.io/github/alipay/sofa-mosn/coverage.svg?branch=master)](https://codecov.io/github/alipay/sofa-mesh?branch=master)
 
-SOFAMesh 是基于 [Istio](https://istio.io) 改进和扩展而来的 Service Mesh 大规模落地实践方案。在继承 Istio 强大功能和丰富特性的基础上，为满足大规模部署下的性能要求以及应对落地实践中的实际情况，有如下改进：
+SOFAMesh is a large-scale implementation of Service Mesh based on the improvement and extension of [Istio] (https://istio.io). On the basis of inheriting the powerful functions and rich features of Istio, in order to meet the performance requirements under large-scale deployment and to deal with the actual situation in the practice of landing, the following improvements have been made:
 
-- 采用 Golang 编写的 [MOSN](https://github.com/alipay/sofa-mosn) 取代 [Envoy](https://github.com/envoyproxy/envoy)
-- 合并 Mixer 到数据平面以解决性能瓶颈
-- 增强 Pilot 以实现更灵活的服务发现机制
-- 增加对 [SOFA RPC](https://github.com/alipay/sofa-rpc)、Dubbo 的支持
+- Replace [Envoy] (https://github.com/envoyproxy/envoy) with [MOSN] (https://github.com/alipay/sofa-mosn) written in Golang
+- Merge Mixer to the data plane to resolve performance bottlenecks
+- Enhance Pilot for a more flexible service discovery mechanism
+- Added support for [SOFA RPC] (https://github.com/alipay/sofa-rpc), Dubbo
 
-初始版本由蚂蚁金服和阿里大文娱UC事业部携手贡献，期待社区一起来参与后续开发，共建一个开源精品项目。
+The initial version was jointly contributed by Ant Financial and Alibaba Entertainment UC Business Unit. We look forward to the community to participate in the follow-up development and build an open source boutique project.
 
-- [SOFAMesh 文档](http://www.sofastack.tech/sofa-mesh/docs/Home)
+- [SOFAMesh document](http://www.sofastack.tech/sofa-mesh/docs/Home)
 - [Istio Community](https://github.com/istio/community) - describes how to get involved and contribute to the Istio project
 - [Istio Developer's Guide](https://github.com/istio/istio/wiki/Dev-Guide) - explains how to set up and use an Istio development environment
 - [Project Conventions](https://github.com/istio/istio/wiki/Dev-Conventions) - describes the conventions we use within the code base
